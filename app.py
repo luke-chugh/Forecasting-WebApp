@@ -159,7 +159,7 @@ if page == "Application":
                     df['floor']=floor
 
         with st.expander('Holidays'):
-            countries = ['Country name','Italy','Spain','USA','India','United Kingdom','France','Germany','Ukraine']
+            countries = ['Country name','Italy','Spain','USA','India','France','Germany','Ukraine']
             with st.container():
                 years=[datetime.now().year]
                 selected_country = st.selectbox(label="Select country",options=countries)

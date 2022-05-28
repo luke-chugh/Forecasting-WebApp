@@ -2,7 +2,7 @@
 
 ## Web app developed with Streamlit & Prophet
 
-This application is a front end for forecasting using Prophet library. [Application link](https://share.streamlit.io/giandata/forecast-app/forecastapp.py)
+This application is a front end for forecasting using Prophet library. [Application link](https://share.streamlit.io/luke-chugh/forecasting-webapp/main/app.py)
 
 The app structure follow the process of building and evaluating a forecast:
 

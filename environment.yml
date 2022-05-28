@@ -1,0 +1,5 @@
+name: stats
+channels:
+  - conda-forge
+dependencies:
+  - prophet

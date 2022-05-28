@@ -64,10 +64,6 @@ if page == "Application":
 
     input = st.file_uploader('')
 
-    if input is None:
-        st.write("Or use sample dataset to try the application")
-        sample = st.checkbox("Download sample data from GitHub")
-
     if input:
         with st.spinner('Loading data..'):
             df = load_csv()

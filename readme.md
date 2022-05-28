@@ -11,7 +11,9 @@ The app structure follow the process of building and evaluating a forecast:
 Upload a .csv file in form of a timeseries. Even though Prophet requires the date column o be labeled **ds** and the value column as **y** , it is not necessary to pre-proces the file to comply with this rule, since it is taken care of during the upload in the app. 
 The dataset can as well contain multiple columns, of which only the chosen one in the selector will be used for the prediction.
 After loading data a checkbox will show up to visualize the dataframe, include a statistical description and create a plot of the timeseries. 
+
 ![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/loading%20the%20time%20series.png)
+
 ### 2. Configure the model settings
 
 Once loaded the data, the app allow the configuration of multiple parameters:
@@ -25,19 +27,26 @@ Yearly: will evaluate trend within months of the year( january to december)
 - **Holidays**: add holidays to the model. Available countries at the moment: Italy, Spain, France, United States, Germany, Ukraine.
 - **Hyperparameters**: Change the scale of the changepoints or holidays. It impacts the flexibility of the model. 
 
+![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/configure%20the%20model%20settings.png)
+
 ### 3. Fit the model and predict future
 - Initialize the model with the settings configured above  (Fit)
 - Generate forecast (Predict): will plot forecast with standard Prophet charts
 - Show components: shows finding about time components selected in point 2.
+
+![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/fit%20and%20predict.png)
 
 ### 4. Evaluate and validate prediction
 
 - Set the k-fold configuration: specify the initial timeframe to keep as training data, the horizon to predict and recurrency of the prediction as period.
 - Calculate the metrics related to the cross-validatio. A dataframe will be generated and a plot of the selected metric will be created.
 
+![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/evaluate%20and%20validate.png)
+
 ### 5. Hyperparameter tuning
 Runs the model with all the combinations possible within the matrix of coefficients of scaling. It return the best combination of changepoint ans seasonality prior scale, which can be used to go back above at point 2 and embed in the model and create an optimized forecast.
 
+![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/hyperparameter%20tuning.png)
 ____________
 ### Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)

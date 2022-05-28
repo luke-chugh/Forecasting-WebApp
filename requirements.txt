@@ -1,7 +1,3 @@
-pandas
 pystan==2.19.1.1
-holidays
 prophet
-plotly
-altair
-numpy
+

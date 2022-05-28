@@ -1,8 +1,6 @@
- # Forecast Application
+# Forecast Application: [Application link](https://share.streamlit.io/luke-chugh/forecasting-webapp/main/app.py)
 
-## Web app developed with Streamlit & Prophet
-
-This application is a front end for forecasting using Prophet library. [Application link](https://share.streamlit.io/luke-chugh/forecasting-webapp/main/app.py)
+This application is a front end for forecasting using Prophet library. 
 
 The app structure follow the process of building and evaluating a forecast:
 

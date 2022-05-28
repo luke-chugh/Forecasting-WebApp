@@ -70,7 +70,7 @@ if page == "Application":
 
     try:
         if sample:
-            st.markdown("""[download_link](https://raw.githubusercontent.com/luke-chugh/Forecasting-WebApp/main/GOOGLE%20Stock%20Data.csv)""")    
+            st.markdown("""[download_link](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/GOOGLE%20Stock%20Data.csv)""")    
             
     except:
 

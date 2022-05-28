@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "some_tool"
+version = "0.1.0"
+description = "some_description"
+authors = ["Your Name <you@example.com>"]
+
+[[tool.poetry.source]]
+name = 'pypi_'  # needed until python-poetry/poetry#3456 is resolved.
+url = 'https://pypi.org/simple'
+secondary = false
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpstan = {url = "https://files.pythonhosted.org/packages/8e/69/754b27a6191d77d56ae39ad39013781d4db3e44bc631169f4f0d2f2ab821/httpstan-4.7.2-cp38-cp38-manylinux_2_24_x86_64.whl"}
+pystan = "2.19.1.1"
+prophet = "1.0.1"
+streamlit = "^1.8.1"
+plotly = "^5.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

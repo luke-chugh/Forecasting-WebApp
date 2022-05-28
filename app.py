@@ -181,9 +181,6 @@ if page == "Application":
                 if selected_country == 'Ukraine':
                     for date, name in sorted(holidays.UKR(years=years).items()):
                             st.write(date,name)
-                if selected_country == 'United Kingdom':
-                    for date, name in sorted(holidays.GB(years=years).items()):
-                            st.write(date,name)
                 if selected_country == 'India':
                     for date, name in sorted(holidays.IN(years=years).items()):
                             st.write(date,name)                           

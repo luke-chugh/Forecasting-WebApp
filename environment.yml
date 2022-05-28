@@ -5,5 +5,9 @@ dependencies:
   - python==3.9
   - setuptools
   - numpy==1.21.6
+  - pandas
+  - holidays
+  - plotly
+  - altair
   - pystan==2.19.1.1
   - prophet

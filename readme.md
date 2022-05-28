@@ -11,6 +11,7 @@ The app structure follow the process of building and evaluating a forecast:
 Upload a .csv file in form of a timeseries. Even though Prophet requires the date column o be labeled **ds** and the value column as **y** , it is not necessary to pre-proces the file to comply with this rule, since it is taken care of during the upload in the app. 
 The dataset can as well contain multiple columns, of which only the chosen one in the selector will be used for the prediction.
 After loading data a checkbox will show up to visualize the dataframe, include a statistical description and create a plot of the timeseries. 
+![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/loading%20the%20time%20series.png)
 ### 2. Configure the model settings
 
 Once loaded the data, the app allow the configuration of multiple parameters:

@@ -2,8 +2,6 @@
 
 This application is a front end for forecasting using Prophet library. 
 
-The app structure follow the process of building and evaluating a forecast:
-
 ### 1. Load the time series
 
 Upload a .csv file in form of a timeseries. Even though Prophet requires the date column o be labeled **ds** and the value column as **y** , it is not necessary to pre-proces the file to comply with this rule, since it is taken care of during the upload in the app. 

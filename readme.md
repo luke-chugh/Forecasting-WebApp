@@ -37,12 +37,6 @@ Yearly: will evaluate trend within months of the year( january to december)
 ### 5. Hyperparameter tuning
 Runs the model with all the combinations possible within the matrix of coefficients of scaling. It return the best combination of changepoint ans seasonality prior scale, which can be used to go back above at point 2 and embed in the model and create an optimized forecast.
 
-### 6. Export results
-
-- Export forecast(.csv) : will generate a link to download the dataframe with predictions and confidence intervals.
-- Export model metrics (.csv): will generate a link to downloa d the dataframe or the cross-validation
-- Export model configuration (.json): will export  the configuration of the model for reproducibility of the results.   
-
 ____________
 ### Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)

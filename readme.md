@@ -43,7 +43,12 @@ Yearly: will evaluate trend within months of the year( january to december)
 Runs the model with all the combinations possible within the matrix of coefficients of scaling. It return the best combination of changepoint ans seasonality prior scale, which can be used to go back above at point 2 and embed in the model and create an optimized forecast.
 
 ![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/hyperparameter%20tuning.png)
-____________
-### Author
+
+# Installation
+To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+```bash
+pip install -r requirements.txt
+```
+# Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)
 

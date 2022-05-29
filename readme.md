@@ -45,9 +45,12 @@ Runs the model with all the combinations possible within the matrix of coefficie
 ![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/images/hyperparameter%20tuning.png)
 
 # Installation
-To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+This project can only be run in Anaconda. To install the required packages and libraries, run the following commands in Anaconda Prompt after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) this repository:
 ```bash
-pip install -r requirements.txt
+conda install -c conda-forge prophet
+```
+```bash
+pip install streamlit
 ```
 # Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)

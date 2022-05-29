@@ -52,6 +52,11 @@ conda install -c conda-forge prophet
 ```bash
 pip install streamlit
 ```
+After this step, open a Anaconda Prompt in the directory containing the files clones from this repository and run the following command:
+```bash
+streamlit run app.py
+```
+
 # Author
 [Luke Chugh](https://www.linkedin.com/in/luke-chugh-2b2043181/)
 

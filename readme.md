@@ -4,6 +4,7 @@
 ![](https://img.shields.io/badge/prophet-1.0.1-orangered)
 ![](https://img.shields.io/badge/plotly-5.8.0-greenyellow)
 ![](https://img.shields.io/badge/streamlit-1.9.1-brightgreen)
+
 This application is a front end for forecasting using Prophet library. 
 
 ### 1. Load the time series:

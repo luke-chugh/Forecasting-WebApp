@@ -24,6 +24,7 @@ Once loaded the data, the app allow the configuration of multiple parameters:
 Weekly: Prophet will search for thrend during days of the week (monday to sunday).
 Monthly: Prophet will search for trend during days of the month (1th to 31th).
 Yearly: will evaluate trend within months of the year( january to december)
+
 -**Growth model**: choose beetwen linear growth or logistic growth, to specify  carrying capacity, for example if there is a maximum achievable point. The app allows then to specify cap and floor of the logistic model.
 - **Holidays**: add holidays to the model. Available countries at the moment: Italy, Spain, France, United States, Germany, Ukraine.
 - **Hyperparameters**: Change the scale of the changepoints or holidays. It impacts the flexibility of the model. 

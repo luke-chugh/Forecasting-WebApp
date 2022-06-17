@@ -19,7 +19,7 @@ After loading data a checkbox will show up to visualize the dataframe, include a
 
 Once loaded the data, the app allow the configuration of multiple parameters:
 - **Horizon**: the time in future to forecast. It is expressed in days.
-- **Seasonality**: choose beetwen Additive seasonality or Multiplicative seasonality. Useful when we can infer o have knoledge of the variation of volatility of the time series.
+- **Seasonality**: choose beetwen Additive seasonality or Multiplicative seasonality. 
 - **Trend components**: declare which trends want to discover and propagate. Daily should be selected if loading a dataset with hourly data.
 Weekly: Prophet will search for thrend during days of the week (monday to sunday).
 Monthly: Prophet will search for trend during days of the month (1th to 31th).

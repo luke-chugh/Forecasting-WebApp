@@ -17,15 +17,16 @@ After loading data a checkbox will show up to visualize the dataframe, include a
 
 ### 2. Configure the model settings:
 
-Once loaded the data, the app allow the configuration of multiple parameters:
+Once the data is loaded, the user can tweak and configure the following parameters:
 - **Horizon**: the time in future to forecast. It is expressed in days.
 - **Seasonality**: choose beetwen Additive seasonality or Multiplicative seasonality. 
-- **Trend components**: declare which trends want to discover and propagate. Daily should be selected if loading a dataset with hourly data.
-Weekly: Prophet will search for thrend during days of the week (monday to sunday).
-Monthly: Prophet will search for trend during days of the month (1th to 31th).
-Yearly: will evaluate trend within months of the year( january to december)
-- **Growth model**: choose beetwen linear growth or logistic growth, to specify  carrying capacity, for example if there is a maximum achievable point. The app allows then to specify cap and floor of the logistic model.
-- **Holidays**: add holidays to the model. Available countries at the moment: Italy, Spain, France, United States, Germany, Ukraine.
+- **Trend Components**: declare which trends you want to discover and propagate:
+Daily should be selected if loading a dataset with hourly data.
+Weekly: Prophet will search for trend during days of the week (Monday to Sunday).
+Monthly: Prophet will search for trends during days of the month (1st to 31st).
+Yearly: will evaluate trends within months of the year (January to December)
+- **Growth model**: choose beetwen linear growth or logistic growth, to specify carrying capacity, for example if there is a maximum acheivable point. The app then allows the user to specify cap and floor of the logistic model.
+- **Holidays**: add holidays to the model. Available countries at the moment: Italy, Spain, France, United States, India, Germany and Ukraine.
 - **Hyperparameters**: Change the scale of the changepoints or holidays. It impacts the flexibility of the model. 
 
 ![Capture](https://github.com/luke-chugh/Forecasting-WebApp/blob/main/screenshots/configure%20the%20model%20settings.png)

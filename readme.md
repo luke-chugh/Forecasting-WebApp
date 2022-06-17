@@ -22,7 +22,7 @@ Once the data is loaded, the user can tweak and configure the following paramete
 - **Seasonality**: choose beetwen Additive seasonality or Multiplicative seasonality. 
 - **Trend Components**: declare which trends you want to discover and propagate:
 
-Daily should be selected if loading a dataset with hourly data.
+-- Daily should be selected if loading a dataset with hourly data.
 
 Weekly: Prophet will search for trend during days of the week (Monday to Sunday).
 

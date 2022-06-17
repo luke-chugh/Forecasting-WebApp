@@ -21,14 +21,13 @@ Once the data is loaded, the user can tweak and configure the following paramete
 - **Horizon**: the time in future to forecast. It is expressed in days.
 - **Seasonality**: choose beetwen Additive seasonality or Multiplicative seasonality. 
 - **Trend Components**: declare which trends you want to discover and propagate:
+    * Daily should be selected if loading a dataset with hourly data.
 
--- Daily should be selected if loading a dataset with hourly data.
+    * Weekly: Prophet will search for trend during days of the week (Monday to Sunday).
 
-Weekly: Prophet will search for trend during days of the week (Monday to Sunday).
+    * Monthly: Prophet will search for trends during days of the month (1st to 31st).
 
-Monthly: Prophet will search for trends during days of the month (1st to 31st).
-
-Yearly: will evaluate trends within months of the year (January to December)
+    * Yearly: will evaluate trends within months of the year (January to December)
 
 - **Growth model**: choose beetwen linear growth or logistic growth, to specify carrying capacity, for example if there is a maximum acheivable point. The app then allows the user to specify cap and floor of the logistic model.
 - **Holidays**: add holidays to the model. Available countries at the moment: Italy, Spain, France, United States, India, Germany and Ukraine.

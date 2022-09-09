@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit import caching
+#from streamlit import caching
 import pandas as pd
 import numpy as np
 import pystan

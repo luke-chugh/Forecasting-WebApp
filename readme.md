@@ -1,4 +1,4 @@
-# Forecast Application: [[WebApp Link]](https://share.streamlit.io/luke-chugh/forecasting-webapp/main/app.py)
+# Forecast Application:
 
 ![](https://img.shields.io/badge/python-3.7-blueviolet)
 ![](https://img.shields.io/badge/prophet-1.0.1-orangered)
